@@ -43,7 +43,7 @@
 
 ## Скачать
 
-> **Ссылка на релиз будет добавлена после публикации.**
+[**Скачать PvZ Hybrid Remake RU v0.5**](https://github.com/keiros06/PVZHR-RU/releases/tag/v0.5)
 
 Новости проекта и объявления о новых версиях публикуются в [Mods for PvZ](https://t.me/ModsForPvZ).
 
