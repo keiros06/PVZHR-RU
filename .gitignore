@@ -1,0 +1,77 @@
+# Release artifacts and staging
+/dist/
+/release/
+/releases/
+/artifacts/
+/build/
+/publish/
+/staging/
+/tmp/
+/temp/
+/out/
+/output/
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.partial
+
+# Runtime payload is assembled from an external game folder and is release-only
+/植物大战僵尸杂交版发布版0.25.5.Csharp.exe
+/植物大战僵尸杂交版发布版0.25.5.Csharp.pck
+/data_PlantsVsZombies_windows_x86_64/
+/assets/Translate/
+/杂交版启动补丁.cs.hta
+
+# Internal quarantine and rollback material
+/_QUARANTINE_UNUSED/
+/backups/
+/backup/
+/QUARANTINE_MANIFEST.json
+/RESTORE_QUARANTINE.ps1
+
+# Internal working outputs
+/RELEASE_PREP.md
+/audit/
+/audit-output/
+/workspace/
+/work/
+
+# Logs, dumps and temporary files
+*.log
+*.dmp
+*.stackdump
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.swp
+*.swo
+*~
+*.lock
+*.cache
+
+# Generated caches and intermediate builds
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+bin/
+obj/
+
+# Editor and operating-system clutter
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.DS_Store
+Thumbs.db
+Desktop.ini
