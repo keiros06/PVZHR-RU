@@ -13,11 +13,10 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$releaseName = 'PvZ-Hybrid-Remake-RU-v0.5'
-$exeName = '植物大战僵尸杂交版发布版0.25.5.Csharp.exe'
-$pckName = '植物大战僵尸杂交版发布版0.25.5.Csharp.pck'
+$releaseName = 'PvZ-Hybrid-Remake-RU-v0.6'
+$exeName = '植物大战僵尸杂交版发布版0.26.1.Csharp.exe'
+$pckName = '植物大战僵尸杂交版发布版0.26.1.Csharp.pck'
 $runtimeDirectoryName = 'data_PlantsVsZombies_windows_x86_64'
-$translationRelativePath = 'Asset\Translate\Translate.zh.translation'
 
 $repositoryRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
 $readmePath = Join-Path $repositoryRoot 'README.md'
@@ -31,12 +30,10 @@ $gameRoot = (Resolve-Path -LiteralPath $GameSource).Path.TrimEnd('\')
 $exePath = Join-Path $gameRoot $exeName
 $pckPath = Join-Path $gameRoot $pckName
 $runtimeDirectory = Join-Path $gameRoot $runtimeDirectoryName
-$translationPath = Join-Path $gameRoot $translationRelativePath
 
 $requiredFiles = @(
     $exePath,
     $pckPath,
-    $translationPath,
     (Join-Path $runtimeDirectory 'PlantsVsZombies.dll'),
     (Join-Path $runtimeDirectory 'PlantsVsZombies.deps.json'),
     (Join-Path $runtimeDirectory 'PlantsVsZombies.runtimeconfig.json'),
@@ -67,7 +64,6 @@ if ($rootPcks.Count -ne 1 -or $rootPcks[0].Name -cne $pckName) {
 $runtimeSourceFiles = @(
     Get-Item -LiteralPath $exePath
     Get-Item -LiteralPath $pckPath
-    Get-ChildItem -LiteralPath (Join-Path $gameRoot 'Asset') -File -Recurse -Force
     Get-ChildItem -LiteralPath $runtimeDirectory -File -Recurse -Force
 )
 
@@ -130,7 +126,6 @@ try {
 
     Copy-Item -LiteralPath $exePath -Destination (Join-Path $releaseRoot $exeName)
     Copy-Item -LiteralPath $pckPath -Destination (Join-Path $releaseRoot $pckName)
-    Copy-Item -LiteralPath (Join-Path $gameRoot 'Asset') -Destination (Join-Path $releaseRoot 'Asset') -Recurse
     Copy-Item -LiteralPath $runtimeDirectory -Destination (Join-Path $releaseRoot $runtimeDirectoryName) -Recurse
 
     $publicAssets = Join-Path $releaseRoot 'docs\assets'

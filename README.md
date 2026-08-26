@@ -6,8 +6,8 @@
 
   **Русская локализация PvZ Hybrid Remake**
 
-  [![Localization](https://img.shields.io/badge/Localization-0.5-70c43b?style=for-the-badge)](#статус-версии)
-  [![Game](https://img.shields.io/badge/Game-0.25.5-d2b04c?style=for-the-badge)](#что-это)
+  [![Localization](https://img.shields.io/badge/Localization-0.6-70c43b?style=for-the-badge)](#статус-версии)
+  [![Game](https://img.shields.io/badge/Game-0.26.1-d2b04c?style=for-the-badge)](#что-это)
   [![Language](https://img.shields.io/badge/Language-Russian-3b82c4?style=for-the-badge)](#что-переведено)
   [![Platform](https://img.shields.io/badge/Platform-Windows-5865a8?style=for-the-badge)](#установка)
 
@@ -19,7 +19,7 @@
 
 ## Что это
 
-**PvZ Hybrid Remake RU** — фанатская русская локализация **PvZ Hybrid Remake 0.25.5**. Проект делает игру понятнее для русскоязычных игроков, сохраняя её оригинальный стиль и настроение.
+**PvZ Hybrid Remake RU** — фанатская русская локализация **PvZ Hybrid Remake 0.26.1**. Проект делает игру понятнее для русскоязычных игроков, сохраняя её оригинальный стиль и настроение.
 
 Русификатор распространяется бесплатно и не является официальным продуктом разработчиков игры.
 
@@ -35,7 +35,7 @@
 
 ## Статус версии
 
-**0.5 — первый публичный релиз локализации.**
+**0.6 — актуальная версия русской локализации для PvZ Hybrid Remake 0.26.1.**
 
 Перевод уже пригоден для нормального прохождения и знакомства с игрой. Визуальная часть продолжит улучшаться: местами ещё могут встречаться забытые китайские надписи, небольшие ошибки или визуальные баги.
 
@@ -43,7 +43,7 @@
 
 ## Скачать
 
-[**Скачать PvZ Hybrid Remake RU v0.5**](https://github.com/keiros06/PVZHR-RU/releases/tag/v0.5)
+[**Скачать PvZ Hybrid Remake RU v0.6**](https://github.com/keiros06/PVZHR-RU/releases/tag/v0.6)
 
 Новости проекта и объявления о новых версиях публикуются в [Mods for PvZ](https://t.me/ModsForPvZ).
 
