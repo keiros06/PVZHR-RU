@@ -13,9 +13,9 @@ param(
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$releaseName = 'PvZ-Hybrid-Remake-RU-v0.6'
-$exeName = '植物大战僵尸杂交版发布版0.26.1.Csharp.exe'
-$pckName = '植物大战僵尸杂交版发布版0.26.1.Csharp.pck'
+$releaseName = 'PvZ-Hybrid-Remake-RU-v0.7'
+$exeName = '植物大战僵尸杂交版发布版0.27.0.Csharp.exe'
+$pckName = '植物大战僵尸杂交版发布版0.27.0.Csharp.pck'
 $runtimeDirectoryName = 'data_PlantsVsZombies_windows_x86_64'
 
 $repositoryRoot = [IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..'))
